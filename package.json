@@ -1,0 +1,14 @@
+{
+  "name": "cypress-learn",
+  "version": "1.0.0",
+  "description": "this is learning cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "DhonyImamSaputra",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.3.1"
+  }
+}
