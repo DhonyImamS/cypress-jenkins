@@ -1,9 +1,6 @@
 pipeline {
     agent {
-        docker {
-            image 'cypress/browsers:node14.17.0-chrome91-ff89'
-            args  '-v $(which docker):/usr/bin/docker'
-        }
+        label 'docker-agent'
     }
     stages{
         stage('Install Dependencies'){
