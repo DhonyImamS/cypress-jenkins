@@ -1,6 +1,6 @@
 pipeline {
     agent{
-        label 'tegarraharditya/jenkins-agent-chrome:2.0'
+        any
     }
     stages{
         stage('Install Dependencies'){
