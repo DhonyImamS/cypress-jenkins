@@ -1,9 +1,7 @@
 pipeline {
     agent{
         label{
-            docker{
-                image 'tegarraharditya/jenkins-agent-chrome:2.0'
-            }
+            'tegarraharditya/jenkins-agent-chrome:2.0'
         }
     }
     stages{
