@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker 'tegarraharditya/jenkins-agent-chrome:2.0'
+        docker 'cypress/browsers:node14.17.0-chrome91-ff89'
     }
     stages{
         stage('Install Dependencies'){
