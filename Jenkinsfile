@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        docker 'tegarraharditya/jenkins-agent-chrome:2.0'
+    }
     stages{
         stage('Install Dependencies'){
             steps{
