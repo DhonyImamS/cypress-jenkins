@@ -1,7 +1,7 @@
 import HomePage from './../../support/pages/homepage';
 const homePage = new HomePage();
 describe('Atlas Using BDD Gherkin Page Object', () => {
-    it('Navigate URL Web Atlas', () => {
+    it('Navigate URL Web Atlas ', () => {
         homePage.navigateTo();
         homePage.assertURL('http://bdd.atlasid.tech/');
     });
