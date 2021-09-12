@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'agent-jenkins-chrome-1'
+        label 'jenkins-slave1'
     }
     stages{
         stage('Install Dependencies'){
